@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+    int t,a,b,i,min=0;
+    scanf("%d",&t);
+   for (i = 0; i<t;i++){
+        scanf("%d%d",&a,&b);
+        min = a - b;
+        printf("%d\n",min);
+    }
+
+    return 0;
+}
