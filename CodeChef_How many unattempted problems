@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main()
+{
+    int t,x,y,min;
+    scanf("%d%d",&x,&y);
+    min = x - y;
+    printf("%d"min);
+    return 0;
+}
