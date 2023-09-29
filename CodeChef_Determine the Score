@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int t,x,n,i,dev,res;
+    scanf("%d",&t);
+   for (i = 0; i<t;i++){
+        scanf("%d%d",&x,&n);
+        dev = x / 10;
+        res = dev * n;
+        printf("%d\n",res);
+
+    }
+
+    return 0;
+}
