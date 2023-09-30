@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    int t,x,n,i,min;
+    scanf("%d",&t);
+   for (i = 0; i<t;i++){
+        scanf("%d%d",&x,&n);
+        min = x - n;
+        printf("%d\n",min);
+    }
+    return 0;
+}
