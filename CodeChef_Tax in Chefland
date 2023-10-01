@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+    int t,x,i,min;
+    scanf("%d",&t);
+   for (i = 0; i<t;i++){
+        scanf("%d",&x);
+        if (x >  100){
+            min = x - 10;
+            printf("%d\n",min);
+        }
+        else printf("%d\n",x);
+
+   }
+    return 0;
+}
