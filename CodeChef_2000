@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main ()
+{
+    int n,mul,res;
+    scanf("%d",&n);
+    mul = 2000 * n;
+    res = mul / 500;
+    printf("%d\n",res);
+    return 0;
+
+}
