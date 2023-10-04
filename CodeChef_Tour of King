@@ -1,0 +1,14 @@
+
+#include<stdio.h>
+int main ()
+{
+    int t,n,m,i,res;
+    scanf("%d",&t);
+    for (i =0;i<t;i++){
+        scanf("%d%d",&n,&m);
+        res = n * 5 + m * 7;
+        printf("%d\n",res);
+    }
+    return 0;
+
+}
