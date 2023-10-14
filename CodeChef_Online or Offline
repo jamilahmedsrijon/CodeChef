@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main ()
+{
+    int t,i;
+    double n,m;
+    double div,min;
+    scanf("%d",&t);
+    for(i=0;i<t;i++)
+    {
+        scanf("%lf%lf",&n,&m);
+        div = (n/100)*10;
+        min = n - div;
+        if (min < m)
+        {
+            printf("ONLINE\n");
+        } 
+        
+         else if (min == m)  printf("EITHER\n");
+
+
+        else
+            printf("DINING\n");
+            
+    }
+
+
+
+    return 0;
+}
