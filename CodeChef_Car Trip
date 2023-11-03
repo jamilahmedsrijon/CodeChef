@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+    int t,x,i,res1,res2;
+    scanf("%d",&t);
+    for (i =0;i < t;i++)
+    {
+        scanf("%d",&x);
+        res1 = 300 * 10;
+        res2 = x * 10;
+        if (x <= 300)
+        {
+           printf("%d\n",res1);
+        }
+        else
+            printf("%d\n",res2);
+    }
+
+    return 0;
+}
