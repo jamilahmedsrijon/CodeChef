@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+   int t,i;
+   int a,b,c,d;
+   scanf("%d",&t);
+
+   for (i = 0; i < t; i++)
+   {
+       scanf("%d%d%d%d",&a,&b,&c,&d);
+       int f = a - c;
+       int s = b - d;
+       if (f < s) printf("First\n");
+       else if (f > s) printf("Second\n");
+       else printf("Any\n");
+   }
+
+    return 0;
+}
+
