@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+   int r, o, c;
+   scanf("%d%d%d",&r,&o,&c);
+   int to = 20 - o;
+   int ball = to * 6;
+   int run  = ball * 6;
+   int trun = c + run;
+   if (r < trun)
+   {
+       printf("YES\n");
+   }
+   else printf("NO\n");
+    return 0;
+}
+
