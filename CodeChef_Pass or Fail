@@ -2,7 +2,7 @@
 
 int main()
 {
-	int t,n,x,p;
+	int t, n, x, p;
 
 	scanf("%d",&t);
 
