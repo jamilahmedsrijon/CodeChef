@@ -13,6 +13,7 @@ int main()
         {
            printf("%d\n",res1);
         }
+
         else
             printf("%d\n",res2);
     }
